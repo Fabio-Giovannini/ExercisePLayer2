@@ -16,7 +16,7 @@
             get { return _name; }
             private set
             {
-                if (!string.IsNullOrWhiteSpace(value))
+                if (string.IsNullOrWhiteSpace(value))
                 {
                     throw new ArgumentException("Name cannot be null or empty.");
                 }
@@ -59,6 +59,11 @@
                 if (value < 0)
                 {
                     throw new ArgumentException("Health must be greater than or equal to 0.");
+                }
+                
+                if (value > 0)
+                {
+                    IsAlive = true;
                 }
                 _health = value;
             }
