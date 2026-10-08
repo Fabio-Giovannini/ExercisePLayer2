@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/doc/" />
+  <Folder Name="/src/">
+    <Project Path="src/BlaisePascal.ExercisePlayer.Domain/BlaisePascal.ExercisePlayer.Domain.csproj" />
+    <Project Path="src/BlaisePascal.ExercisePlayer.UIConsole/BlaisePascal.ExercisePlayer.UIConsole.csproj" />
+  </Folder>
+  <Folder Name="/test/" />
+</Solution>
