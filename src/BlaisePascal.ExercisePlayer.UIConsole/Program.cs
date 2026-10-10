@@ -1,4 +1,5 @@
 ﻿using BlaisePascal.ExercisePlayer.Domain;
+using System.Security.Cryptography.X509Certificates;
 
 public class Program
 {
@@ -6,11 +7,21 @@ public class Program
     {
         try
         {
-            Player player1 = new Player("Fabio");
-            player1.AddExperience(120);
-            player1.TakeDamage(250);
-            player1.Heal(50);
-            player1.AddGOld(157);
+            Console.WriteLine("Insert the username of the player:");
+            string name = Console.ReadLine();
+            Player player1 = new Player(name);
+            Console.WriteLine("Insert the experince to add to the player:");
+            int experienceToAdd = int.Parse(Console.ReadLine());
+            player1.AddExperience(experienceToAdd);
+            Console.WriteLine("Insert the damage to take from the player:");
+            int damageToTake = int.Parse(Console.ReadLine());
+            player1.TakeDamage(damageToTake);
+            Console.WriteLine("Insert the amount of healht to add to the player:");
+            int healthToAdd = int.Parse(Console.ReadLine());
+            player1.Heal(healthToAdd);
+            Console.WriteLine("Insert the amount of gold to add to the player:");
+            int goldToAdd = int.Parse(Console.ReadLine());
+            player1.AddGOld(goldToAdd);
 
 
             Console.WriteLine($"Player Name: {player1.Name}");

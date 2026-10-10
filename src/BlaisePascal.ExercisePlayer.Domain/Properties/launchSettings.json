@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "BlaisePascal.ExercisePlayer.Domain": {
+      "commandName": "Project"
+    },
+    "Profilo 1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\fabio.giovannini\\source\\repos\\Esempio\\src\\BlaisePascal.Esempio.Domain\\Vehicle.cs"
+    }
+  }
+}

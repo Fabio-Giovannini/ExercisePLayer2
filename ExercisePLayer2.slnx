@@ -4,5 +4,7 @@
     <Project Path="src/BlaisePascal.ExercisePlayer.Domain/BlaisePascal.ExercisePlayer.Domain.csproj" />
     <Project Path="src/BlaisePascal.ExercisePlayer.UIConsole/BlaisePascal.ExercisePlayer.UIConsole.csproj" />
   </Folder>
-  <Folder Name="/test/" />
+  <Folder Name="/test/">
+    <Project Path="test/BlaisePascal.ExercisePlayer.DomainTest/BlaisePascal.ExercisePlayer.DomainTest.csproj" Id="21796b2d-5d54-42b1-ae27-0a0a43a48eb9" />
+  </Folder>
 </Solution>
