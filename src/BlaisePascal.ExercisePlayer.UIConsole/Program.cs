@@ -21,7 +21,7 @@ public class Program
             player1.Heal(healthToAdd);
             Console.WriteLine("Insert the amount of gold to add to the player:");
             int goldToAdd = int.Parse(Console.ReadLine());
-            player1.AddGOld(goldToAdd);
+            player1.AddGold(goldToAdd);
 
 
             Console.WriteLine($"Player Name: {player1.Name}");

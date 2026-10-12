@@ -172,7 +172,7 @@
         }
 
         //method for increase gold
-        public void AddGOld(int amount)
+        public void AddGold(int amount)
         {
             if (amount < 0)
             {
